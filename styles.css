@@ -1,0 +1,56 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header, .footer, .hero {
+    background-color: #1F2937;
+}
+
+.content-middle {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+#quotee {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.hero p, a {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.content-bottom {
+    background-color: #3882F6;
+}
