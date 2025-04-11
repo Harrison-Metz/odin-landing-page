@@ -10,16 +10,19 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
+    padding: 0 100px 0 100px;
 }
 
 .header ul {
     display: flex;
     gap: 20px;
     align-items: center;
+
 }
 
 .nav {
     margin-right: 0px;
+    margin-left: auto;
 }
 
 .content-middle {
@@ -48,14 +51,18 @@ ul {
 }
 
 .hero {
+    display: flex;
     align-items: center;
     justify-content: center;
+    gap: 20px;
 }
 
 .hero-left {
     display: flex;
     flex-direction: column;
-    
+    width: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 .hero p, a {
@@ -63,8 +70,12 @@ ul {
     color: #F9FAF8;
 }
 
+.hero-right {
+    width: 50%;
+}
+
 .hero img {
-    width: 300px;
+    width: auto;
     height: 200px;
 }
 
