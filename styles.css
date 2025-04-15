@@ -148,3 +148,15 @@ button {
     align-items: center;
     
 }
+
+.content-bottom {
+    display: flex;
+    margin: 100px 25% 100px 25%;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.content-bottom-left {
+    display: flex;
+    flex-direction: column;
+}
