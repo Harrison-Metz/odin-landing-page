@@ -49,7 +49,7 @@ body {
 #quotee {
     font-size: 18px;
     font-weight: 700;
-    margin-right: 0px;
+    margin-right: 10px;
     margin-left: auto;
     margin-top: 0px;
     padding-bottom: 50px;
@@ -150,13 +150,27 @@ button {
 }
 
 .content-bottom {
-    display: flex;
-    margin: 100px 25% 100px 25%;
+    padding: 30px 40px;
     border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    min-width: 600px;
+    max-width: 800px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .content-bottom-left {
-    display: flex;
-    flex-direction: column;
+    
+}
+
+.content-bottom button {
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    border-radius: 10px;
 }
